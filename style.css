@@ -1,0 +1,42 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+<style>
+body {
+  background: url("https://i0.kym-cdn.com/entries/icons/original/000/019/616/41584.jpg") repeat;
+}
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+button {
+  -webkit-appearance: button;
+}
+ 
+
+</style>
+</head>
+<body>
+  <img id="banner" src="mybannerimage.gif" alt="Banner Image"/>
+</body>
